@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            As medidas que devem ser usadas são:
+             - px (pixels)
+            -  em (relativo ao tamanho da fonte)
+            Geralmente, a medida padrão das fontes é 16px, ou seja, 1em = 16px
+            */
+            font-size: 1.2em;
+        }
+        h1, h2 {
+            font-family: "Work Sans", sans-serif;
+            font-size: 2em;
+            /*
+            < lighter -> normal  - > bold -> bolder >
+            */
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas vitae nulla et dapibus. Sed commodo massa at massa aliquam dignissim. Maecenas sit amet faucibus elit. Etiam porta diam tristique erat fringilla, ut cursus arcu tincidunt.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas vitae nulla et dapibus.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas vitae nulla et dapibus. Sed commodo massa at massa aliquam dignissim.</p>
+</body>
+</html>
