@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+  --font01: Verdana, Genova, Tahoma, sans-serif;
+  --font02: 'Passion One', cursive;
+  --font03: "Sriracha", cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--font01);
+}
+
+header {
+  background-color: black;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+header > h1 {
+  font-family: var(--font02);
+  font-variant: small-caps;
+  font-size: 9.5vw;
+}
+
+header > p {
+  padding-bottom: 50px;
+}
+
+a, strong {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 15px;
+  line-height: 2em;
+  font-family: var(--font03);
+  font-size: 4vw;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+section.normal {
+  background-color: white;
+}
+
+section.imagem {
+  background-color: dimgray;
+  color: white;
+  background-size: cover;
+  background-position: right center;
+  box-shadow: inset 5px 5px 10px black;
+  background-attachment: fixed;
+}
+
+section.imagem > p {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section#img01 {
+  background-image: url("imagens/background001.jpg");
+}
+
+section#img02 {
+  background-image: url("imagens/background002.jpg");
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
