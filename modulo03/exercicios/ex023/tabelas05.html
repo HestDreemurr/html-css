@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 350px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .sexo {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo" span="2">
+            <col class="prof">
+        </colgroup>
+        <caption>
+            Pessoas
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>14</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>56</td>
+            <td>Médica</td>
+        </tr>
+
+        <tr>
+            <td>Calabreso</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>

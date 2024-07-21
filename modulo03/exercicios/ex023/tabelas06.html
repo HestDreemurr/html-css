@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Resposivas</title>
+  <style>
+      table {
+          width: 600px;
+          border-collapse: collapse;
+      }
+      caption {
+          font-size: 1.3em;
+          padding: 10px;
+      }
+      thead {
+          background-color: lightgray;
+      }
+      th, td {
+          border: 1px solid black;
+          padding: 10px;
+      }
+      #tabela {
+          overflow-x: auto;
+      }
+  </style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+
+    <div id="tabela">
+        <table>
+            <caption>Tabela de Preços</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>R$ 2.500,00</td>
+                </tr>
+                <tr>
+                    <td>Celular</td>
+                    <td>R$ 1.500,00</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>R$ 1.200,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
