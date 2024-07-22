@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Uso de iframes</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecione uma opção</h1>
+  <ul>
+    <li><a href="paginas/pag01.html" target="tela">Primeira página</a></li>
+    <li><a href="paginas/pag02.html" target="tela">Segunda página</a></li>
+    <li><a href="paginas/pag03.html" target="tela">Terceira página</a></li>
+  </ul>
+
+  <iframe name="tela" srcdoc="<h1>Selecione uma opção acima</h1>">
+    <p>Seu navegador não é compatível com iframes.</p>
+  </iframe>
+</body>
+</html>
