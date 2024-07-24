@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="usuario">Usuário: </label>
+            <input type="text" name="usuario" id="usuario" required minlength="3" maxlength="15" autocomplete="username" placeholder="Nome do usuário">
+        </p>
+        <p>
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" required minlength="8" maxlength="20" autocomplete="new-password" placeholder="Sua senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
