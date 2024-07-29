@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="menu" class="material-symbols-outlined" onclick="menu()">menu</span>
+        </div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Aprendendo Media Queries</h2>
+
+            <p>Se colocarmos um viewport com width=320, por exemplo, conseguimos criar uma página para iPhone e outros smartphones normalmente. Mas e se a página for aberta num iPad de 768px de resolução? Ou em um tablet Android de 600px de largura? Ou um smartphone Android de 533px em modo paisagem?</p>
+
+            <p>Podemos então colocar o viewport com width=device-width e codificar nosso HTML e CSS para usarem 100% da largura, flexibilizando nosso layout. Mas será que nosso layout vai ficar bonito tanto em um smartphone de 240px quanto num tablet com 1024px?</p>
+
+            <p>Só fazer layouts flexíveis também não é a melhor solução. Precisamos ajustar o design de acordo com o dispositivo usado.</p>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
