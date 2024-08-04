@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxes</title>
+    <style>
+        div.container {
+            background-color: purple;
+
+            display: flex;
+            height: 350px;
+            align-items: flex-start;
+        }
+
+        div.item {
+            background-color: blue;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #a {
+            align-self: auto;
+        }
+        #b {
+            align-self: flex-start;
+        }
+        #c{
+            align-self: flex-end;
+        }
+        #d {
+            align-self: center;
+        }
+        #e {
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
+        <div class="item" id="d">D</div>
+        <div class="item" id="e">E</div>
+    </div>
+</body>
+</html>
