@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transições</title>
+  <style>
+    #caixa {
+      width: 100px;
+      height: 100px;
+      background-color: lightskyblue;
+      
+      /* property | duration | timing-function | delay */ 
+      transition: background-color 1.5s ease-out 0.5s;
+    }
+    #caixa:hover {
+      background-color: salmon;
+    }
+  </style>
+</head>
+<body>
+  <div id="caixa"></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: lightgray;
+}
+
+header {
+  background-color: gray;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #00000069;
+}

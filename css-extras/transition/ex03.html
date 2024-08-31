@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transições - Funções de Tempo</title>
+  <style>
+    #caixa {
+      width: 100px;
+      height: 100px;
+      background: lightskyblue;
+      
+      /* 
+      timing-function: 
+      
+        - ease: acelera mais rapidamente no inicio, e começa a abrandar a menos de metade do caminho.
+        
+        - ease-in: lento no inicio e vai acelerando até normalizar no fim.
+        
+        - ease-out: normal no inicio e vai abrandando no fim.
+        
+        - ease-in-out: este é uma combinação dos dois ficando lento no inicio,
+        normal a meio e lento no fim.
+      */
+      transition: margin-left 1.5s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <div id="caixa"></div>
+  <script>
+    setInterval(() => {
+      caixa.style.marginLeft = caixa.style.marginLeft == "300px" ? "0px" : "300px"
+    }, 3000)
+  </script>
+</body>
+</html>
