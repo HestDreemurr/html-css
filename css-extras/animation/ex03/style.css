@@ -1,0 +1,28 @@
+:root {
+  overflow: hidden;
+  background: lightskyblue;
+  display: flex;
+  justify-content: center;
+}
+
+#sol {
+  background: yellow;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  
+  animation: 4s linear infinite alternate sun-rise;
+}
+
+@keyframes sun-rise {
+  from {
+    transform: translateY(110vh);
+    background: red;
+    filter: brightness(75%);
+  }
+  
+  to {
+    transform: translateY(0);
+    background: yellow;
+  }
+}

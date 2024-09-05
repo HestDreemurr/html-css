@@ -1,0 +1,22 @@
+.circulo {
+  background: lightskyblue;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  
+  /* 
+  duration | timing-function | delay | iteration-count | direction | play-state | name 
+  */ 
+  animation: 1.5s ease 0.5s infinite alternate running slideout;
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 0;
+  }
+  
+  to {
+    margin-left: 100%;
+  }
+}
