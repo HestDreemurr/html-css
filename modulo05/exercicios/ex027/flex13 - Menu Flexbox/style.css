@@ -14,10 +14,37 @@ body {
 header {
   background-color: gray;
   padding: 10px;
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1 {
+header > h1 {
   color: white;
+  flex: 0 0 200px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav > a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  transition: background-color 0.5s ease-out;
+}
+
+nav > a:hover {
+  background-color: white;
+  color: black;
 }
 
 main {
