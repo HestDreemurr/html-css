@@ -54,3 +54,18 @@ main {
   border-radius: 10px;
   box-shadow: 2px 2px 2px #00000069;
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-flow: column nowrap;
+  }
+  
+  header > h1 {
+    flex: none;
+  }
+  
+  nav {
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+}
