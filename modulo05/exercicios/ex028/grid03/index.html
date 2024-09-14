@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid Layout</title>
+  <style>
+    
+    .grid-container {
+      border: 2px solid #7e2c02;
+      border-radius: 5px;
+      background-color: #f9a89e;
+      
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 100px;
+    }
+    
+    .grid-item {
+      border: 2px solid #ff6011;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+      background-color: #feb38e;
+      color: #790000;
+    }
+    
+    #item01 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    
+    #item02 {
+      grid-row-start: 3;
+      grid-row-end: 5;
+    }
+    
+    #item03 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <div class="grid-container">
+    <div class="grid-item" id="item01">Um</div>
+    <div class="grid-item" id="item02">Dois</div>
+    <div class="grid-item" id="item03">Três</div>
+    <div class="grid-item">Quatro</div>
+    <div class="grid-item">Cinco</div>
+  </div>
+  
+</body>
+</html>

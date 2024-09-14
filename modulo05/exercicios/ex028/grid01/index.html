@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid Layout</title>
+  <style>
+    
+    .grid-container {
+      border: 2px solid #7e2c02;
+      border-radius: 5px;
+      background-color: #f9a89e;
+      
+      display: grid;
+      grid-template-columns: repeat(2, 1fr 2fr);
+    }
+    
+    .grid-item {
+      border: 2px solid #ff6011;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+      background-color: #feb38e;
+      color: #790000;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <div class="grid-container">
+    <div class="grid-item">Um</div>
+    <div class="grid-item">Dois</div>
+    <div class="grid-item">Três</div>
+    <div class="grid-item">Quatro</div>
+    <div class="grid-item">Cinco</div>
+    <div class="grid-item">Seis</div>
+  </div>
+  
+</body>
+</html>
