@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Grid Implícito</title>
+  <title>Grid Gap - Gutters</title>
   <style>
     
     .grid-container {
@@ -14,13 +14,13 @@
       
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: minmax(100px, auto);
+      /* row-gap / column-gap */
+      gap: 1em 10px;
     }
     
     .grid-item {
       border: 2px solid #ff6011;
       padding: 10px;
-      margin: 5px;
       border-radius: 5px;
       background-color: #feb38e;
       color: #790000;
@@ -31,16 +31,11 @@
 <body>
   
   <div class="grid-container">
-    <div class="grid-item">Um</div>
-    <div class="grid-item">
-      Dois
-      <p>Eu tenho um pouco mais de conteúdo.</p>
-      <p>Isso me faz maior que 100px</p>
-    </div>
-    <div class="grid-item">Três</div>
+    <div class="grid-item" id="item01">Um</div>
+    <div class="grid-item" id="item02">Dois</div>
+    <div class="grid-item" id="item03">Três</div>
     <div class="grid-item">Quatro</div>
     <div class="grid-item">Cinco</div>
-    <div class="grid-item">Seis</div>
   </div>
   
 </body>
