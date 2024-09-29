@@ -1,0 +1,7 @@
+@use "base";
+
+#elemento {
+  margin: 10px;
+  background-color: base.$cor;
+  @include base.config;
+}

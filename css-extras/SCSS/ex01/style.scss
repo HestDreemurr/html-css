@@ -1,0 +1,17 @@
+$cor: #26df23;
+
+#caixa01 {
+  background: $cor;
+  $size: 200px;
+  width: $size;
+  height: $size;
+  color: white;
+}
+
+#caixa02 {
+  background: $cor;
+  $size: 150px;
+  width: $size;
+  height: $size;
+  color: black;
+}

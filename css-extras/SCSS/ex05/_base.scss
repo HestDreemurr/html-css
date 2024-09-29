@@ -1,0 +1,10 @@
+$cor: #9a0000;
+
+@mixin config {
+  width: 150px;
+  height: 150px;
+}
+
+body {
+  background-color: lightskyblue;
+}

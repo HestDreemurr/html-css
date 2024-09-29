@@ -1,0 +1,21 @@
+@mixin tema($cor: darkgray, $fonte: white) {
+  width: 150px;
+  height: 150px;
+  background: $cor;
+  color: $fonte;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#infos {
+  @include tema($fonte: black);
+}
+
+#alerta {
+  @include tema($cor: darkred);
+}
+
+#sucesso {
+  @include tema($cor: darkgreen);
+}
