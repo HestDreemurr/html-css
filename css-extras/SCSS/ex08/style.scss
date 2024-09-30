@@ -1,0 +1,29 @@
+@mixin tema($claro) {
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  
+  @if $claro {
+    background-color: #f4f4f4;
+    color: gray;
+  } @else {
+    background-color: gray;
+    color: white;
+  }
+}
+
+
+
+#elemento01 {
+  @include tema($claro: true);
+}
+
+#elemento02 {
+  @include tema($claro: false);
+}
+
+#elemento03 {
+  @include tema($claro: true);
+}

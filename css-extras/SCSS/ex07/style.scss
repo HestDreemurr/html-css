@@ -1,0 +1,13 @@
+@use "sass:math";
+
+@function px-to-rem($px, $base: 16) {
+  @return #{math.div($px, $base)}rem;
+}
+
+.artigo01 {
+  font-size: px-to-rem(16);
+}
+
+.artigo02 {
+  font-size: px-to-rem(24);
+}
