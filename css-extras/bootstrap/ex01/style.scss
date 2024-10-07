@@ -1,0 +1,15 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+#caixa {
+  display: none;
+  background-color: gray;
+  height: 500px;
+}
+
+@include media-breakpoint-between(md, xl) {
+  #caixa {
+    display: block;
+  }
+}

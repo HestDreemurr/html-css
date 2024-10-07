@@ -1,0 +1,13 @@
+#caixa {
+  display: none;
+  background-color: gray;
+  height: 500px;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  #caixa {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

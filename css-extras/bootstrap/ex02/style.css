@@ -1,0 +1,29 @@
+.caixa {
+  padding: 15px;
+  margin: 10px;
+}
+
+section#claro {
+  background-color: #f8f9fa;
+}
+
+section#escuro {
+  background-color: #212529;
+  color: white;
+}
+
+button {
+  all: unset;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button#sucesso {
+  background-color: #198754;
+}
+
+button#perigo {
+  background-color: #dc3545;
+}
+
+/*# sourceMappingURL=style.css.map */
